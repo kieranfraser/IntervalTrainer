@@ -1,45 +1,101 @@
-/app/vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.4/lib/active_record/connection_adapters/connection_specification.rb:177:in `rescue in spec': Specified 'postgresql' for database adapter, but the gem is not loaded. Add `gem 'pg'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord). (Gem::LoadError)
-	from /app/vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.4/lib/active_record/connection_adapters/connection_specification.rb:174:in `spec'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.4/lib/active_record/connection_handling.rb:50:in `establish_connection'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.4/lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.4/lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.4/lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.4/lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.4/lib/active_support/lazy_load_hooks.rb:44:in `each'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.4/lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.4/lib/active_record/base.rb:315:in `<module:ActiveRecord>'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.4/lib/active_record/base.rb:26:in `<top (required)>'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.4/lib/active_record/relation/predicate_builder.rb:121:in `<class:PredicateBuilder>'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.4/lib/active_record/relation/predicate_builder.rb:2:in `<module:ActiveRecord>'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.4/lib/active_record/relation/predicate_builder.rb:1:in `<top (required)>'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.4/lib/active_support/dependencies.rb:274:in `require'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.4/lib/active_support/dependencies.rb:274:in `block in require'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.4/lib/active_support/dependencies.rb:240:in `load_dependency'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.4/lib/active_support/dependencies.rb:274:in `require'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.4/lib/active_support/dependencies/autoload.rb:70:in `block in eager_load!'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.4/lib/active_support/dependencies/autoload.rb:70:in `each_value'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activesupport-4.2.4/lib/active_support/dependencies/autoload.rb:70:in `eager_load!'
-	from /app/vendor/bundle/ruby/2.0.0/gems/activerecord-4.2.4/lib/active_record.rb:159:in `eager_load!'
-	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/application/finisher.rb:56:in `each'
-	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/application/finisher.rb:56:in `block in <module:Finisher>'
-	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/initializable.rb:30:in `instance_exec'
-	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/initializable.rb:30:in `run'
-	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/initializable.rb:55:in `block in run_initializers'
-	from /app/vendor/ruby-2.0.0/lib/ruby/2.0.0/tsort.rb:150:in `block in tsort_each'
-	from /app/vendor/ruby-2.0.0/lib/ruby/2.0.0/tsort.rb:183:in `block (2 levels) in each_strongly_connected_component'
-	from /app/vendor/ruby-2.0.0/lib/ruby/2.0.0/tsort.rb:219:in `each_strongly_connected_component_from'
-	from /app/vendor/ruby-2.0.0/lib/ruby/2.0.0/tsort.rb:182:in `block in each_strongly_connected_component'
-	from /app/vendor/ruby-2.0.0/lib/ruby/2.0.0/tsort.rb:180:in `each'
-	from /app/vendor/ruby-2.0.0/lib/ruby/2.0.0/tsort.rb:180:in `each_strongly_connected_component'
-	from /app/vendor/ruby-2.0.0/lib/ruby/2.0.0/tsort.rb:148:in `tsort_each'
-	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/initializable.rb:54:in `run_initializers'
-	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/application.rb:352:in `initialize!'
-	from /app/config/environment.rb:5:in `<top (required)>'
-	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/application.rb:328:in `require'
-	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/application.rb:328:in `require_environment!'
-	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/commands_tasks.rb:142:in `require_application_and_environment!'
-	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/commands_tasks.rb:67:in `console'
-	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
-	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands.rb:17:in `<top (required)>'
-	from /app/bin/rails:4:in `require'
-	from /app/bin/rails:4:in `<main>'
+2015-11-14T22:33:19.234719+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/server.rb:208:in `app'
+2015-11-14T22:33:19.234720+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/server.rb:61:in `app'
+2015-11-14T22:33:19.234721+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/server.rb:336:in `wrapped_app'
+2015-11-14T22:33:19.234721+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/rack-1.6.4/lib/rack/server.rb:272:in `start'
+2015-11-14T22:33:19.234722+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/server.rb:80:in `start'
+2015-11-14T22:33:19.234723+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/commands_tasks.rb:80:in `block in server'
+2015-11-14T22:33:19.234725+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/commands_tasks.rb:75:in `tap'
+2015-11-14T22:33:19.234726+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/commands_tasks.rb:75:in `server'
+2015-11-14T22:33:19.234726+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+2015-11-14T22:33:19.234727+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.0.0/gems/railties-4.2.4/lib/rails/commands.rb:17:in `<top (required)>'
+2015-11-14T22:33:19.234727+00:00 app[web.1]: 	from bin/rails:4:in `require'
+2015-11-14T22:33:19.234728+00:00 app[web.1]: 	from bin/rails:4:in `<main>'
+2015-11-14T22:33:19.879958+00:00 heroku[web.1]: State changed from starting to crashed
+2015-11-14T22:33:19.871203+00:00 heroku[web.1]: Process exited with status 1
+2015-11-14T22:33:44.405901+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=intervaltrainer.herokuapp.com request_id=1bfb2a5a-0d29-4ea2-89ea-a5e1e6b72088 fwd="86.40.27.99" dyno= connect= service= status=503 bytes=
+2015-11-14T22:33:44.935864+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=intervaltrainer.herokuapp.com request_id=73d18fda-acc6-4abf-b1ca-dfec71729d14 fwd="86.40.27.99" dyno= connect= service= status=503 bytes=
+2015-11-14T22:34:16.095121+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=intervaltrainer.herokuapp.com request_id=8bfceeb6-d4aa-4761-8115-61bbafd41d0c fwd="86.40.27.99" dyno= connect= service= status=503 bytes=
+2015-11-14T22:34:16.526896+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=intervaltrainer.herokuapp.com request_id=a0e3cac3-ad68-4372-b167-64e84fa66181 fwd="86.40.27.99" dyno= connect= service= status=503 bytes=
+2015-11-14T22:43:54.570383+00:00 heroku[api]: Starting process with command `rails console` by fraserkieran@hotmail.com
+2015-11-14T22:43:56.567702+00:00 heroku[run.9310]: Awaiting client
+2015-11-14T22:43:56.589618+00:00 heroku[run.9310]: Starting process with command `rails console`
+2015-11-14T22:43:57.032637+00:00 heroku[run.9310]: State changed from starting to up
+2015-11-14T22:44:00.403292+00:00 heroku[run.9310]: State changed from up to complete
+2015-11-14T22:44:00.387516+00:00 heroku[run.9310]: Process exited with status 1
+2015-11-14T22:44:25.745627+00:00 heroku[api]: Starting process with command `rails console` by fraserkieran@hotmail.com
+2015-11-14T22:44:27.735155+00:00 heroku[run.1536]: Awaiting client
+2015-11-14T22:44:27.752812+00:00 heroku[run.1536]: Starting process with command `rails console`
+2015-11-14T22:44:28.174883+00:00 heroku[run.1536]: State changed from starting to up
+2015-11-14T22:44:30.780295+00:00 heroku[run.1536]: State changed from up to complete
+2015-11-14T22:44:30.771762+00:00 heroku[run.1536]: Process exited with status 1
+2015-11-14T23:37:43.113720+00:00 heroku[api]: Deploy 28a77d5 by fraserkieran@hotmail.com
+2015-11-14T23:37:43.113720+00:00 heroku[api]: Release v6 created by fraserkieran@hotmail.com
+2015-11-14T23:37:43.224362+00:00 heroku[slug-compiler]: Slug compilation started
+2015-11-14T23:37:43.224367+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-11-14T23:37:43.288341+00:00 heroku[web.1]: State changed from crashed to starting
+2015-11-14T23:37:45.245334+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 51795 -e production`
+2015-11-14T23:37:48.611572+00:00 app[web.1]: [2015-11-14 23:37:48] INFO  WEBrick 1.3.1
+2015-11-14T23:37:48.611596+00:00 app[web.1]: [2015-11-14 23:37:48] INFO  ruby 2.1.7 (2015-08-18) [x86_64-linux]
+2015-11-14T23:37:48.611910+00:00 app[web.1]: [2015-11-14 23:37:48] INFO  WEBrick::HTTPServer#start: pid=3 port=51795
+2015-11-14T23:37:48.801648+00:00 heroku[web.1]: State changed from starting to up
+2015-11-14T23:37:55.819677+00:00 heroku[router]: at=info method=GET path="/" host=intervaltrainer.herokuapp.com request_id=9af1b53b-fd1b-4184-bd24-5c0dd84c6f5a fwd="86.40.27.99" dyno=web.1 connect=1ms service=61ms status=404 bytes=1829
+2015-11-14T23:37:55.783387+00:00 app[web.1]: => Booting WEBrick
+2015-11-14T23:37:55.783391+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2015-11-14T23:37:55.783390+00:00 app[web.1]: => Rails 4.2.4 application starting in production on http://0.0.0.0:51795
+2015-11-14T23:37:55.783391+00:00 app[web.1]: => Ctrl-C to shutdown server
+2015-11-14T23:37:55.783392+00:00 app[web.1]: Started GET "/" for 86.40.27.99 at 2015-11-14 23:37:55 +0000
+2015-11-14T23:37:55.837691+00:00 app[web.1]: 
+2015-11-14T23:37:55.837694+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/"):
+2015-11-14T23:37:55.837698+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2015-11-14T23:37:55.837700+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:38:in `call_app'
+2015-11-14T23:37:55.837699+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2015-11-14T23:37:55.837700+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `block in call'
+2015-11-14T23:37:55.837702+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+2015-11-14T23:37:55.837701+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2015-11-14T23:37:55.837702+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+2015-11-14T23:37:55.837703+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `call'
+2015-11-14T23:37:55.837703+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2015-11-14T23:37:55.837704+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+2015-11-14T23:37:55.837705+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+2015-11-14T23:37:55.837705+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/activesupport-4.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+2015-11-14T23:37:55.837706+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/static.rb:116:in `call'
+2015-11-14T23:37:55.837706+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+2015-11-14T23:37:55.837707+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/railties-4.2.4/lib/rails/engine.rb:518:in `call'
+2015-11-14T23:37:55.837707+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/railties-4.2.4/lib/rails/application.rb:165:in `call'
+2015-11-14T23:37:55.837708+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+2015-11-14T23:37:55.837708+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+2015-11-14T23:37:55.837710+00:00 app[web.1]:   vendor/ruby-2.1.7/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+2015-11-14T23:37:55.837709+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+2015-11-14T23:37:55.837710+00:00 app[web.1]:   vendor/ruby-2.1.7/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+2015-11-14T23:37:55.837709+00:00 app[web.1]:   vendor/ruby-2.1.7/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+2015-11-14T23:37:55.837710+00:00 app[web.1]: 
+2015-11-14T23:37:55.837711+00:00 app[web.1]: 
+2015-11-14T23:37:56.235723+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=intervaltrainer.herokuapp.com request_id=9590c6b0-900d-4c92-88e1-cc5b0e6aa1fe fwd="86.40.27.99" dyno=web.1 connect=1ms service=4ms status=200 bytes=228
+2015-11-14T23:38:17.299659+00:00 heroku[router]: at=info method=GET path="/" host=intervaltrainer.herokuapp.com request_id=abc93345-92f5-4fe8-a6e3-7d1e4e1ec549 fwd="86.40.27.99" dyno=web.1 connect=1ms service=6ms status=404 bytes=1829
+2015-11-14T23:38:17.319937+00:00 app[web.1]: 
+2015-11-14T23:38:17.319939+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/"):
+2015-11-14T23:38:17.319945+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+2015-11-14T23:38:17.319953+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/railties-4.2.4/lib/rails/engine.rb:518:in `call'
+2015-11-14T23:38:17.319940+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2015-11-14T23:38:17.319947+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2015-11-14T23:38:17.319950+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/activesupport-4.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+2015-11-14T23:38:17.319954+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+2015-11-14T23:38:17.319941+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2015-11-14T23:38:17.319943+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `block in call'
+2015-11-14T23:38:17.319944+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+2015-11-14T23:38:17.319949+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+2015-11-14T23:38:17.319954+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/railties-4.2.4/lib/rails/application.rb:165:in `call'
+2015-11-14T23:38:17.319942+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:38:in `call_app'
+2015-11-14T23:38:17.319945+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+2015-11-14T23:38:17.319955+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+2015-11-14T23:38:17.319946+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `call'
+2015-11-14T23:38:17.319951+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/static.rb:116:in `call'
+2015-11-14T23:38:17.319947+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+2015-11-14T23:38:17.319956+00:00 app[web.1]:   vendor/ruby-2.1.7/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+2015-11-14T23:38:17.319951+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+2015-11-14T23:38:17.319955+00:00 app[web.1]:   vendor/bundle/ruby/2.1.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+2015-11-14T23:38:17.319957+00:00 app[web.1]:   vendor/ruby-2.1.7/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+2015-11-14T23:38:17.319958+00:00 app[web.1]: 
+2015-11-14T23:38:17.319957+00:00 app[web.1]:   vendor/ruby-2.1.7/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+2015-11-14T23:38:17.319958+00:00 app[web.1]: 
+2015-11-14T23:38:17.317878+00:00 app[web.1]: Started GET "/" for 86.40.27.99 at 2015-11-14 23:38:17 +0000
