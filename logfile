@@ -1,1 +1,76 @@
 postgres cannot access the server configuration file "/usr/local/pgsql/data/postgresql.conf": No such file or directory
+FATAL:  lock file "postmaster.pid" already exists
+HINT:  Is another postmaster (PID 5552) running in data directory "C:/Users/kfraser/AppData/Roaming/intervalData"?
+LOG:  local connections are not supported by this build
+CONTEXT:  line 84 of configuration file "C:/Users/kfraser/AppData/Roaming/intervalData/pg_hba.conf"
+FATAL:  could not load pg_hba.conf
+LOG:  local connections are not supported by this build
+CONTEXT:  line 84 of configuration file "C:/Users/kfraser/AppData/Roaming/intervalData/pg_hba.conf"
+FATAL:  could not load pg_hba.conf
+LOG:  local connections are not supported by this build
+CONTEXT:  line 84 of configuration file "C:/Users/kfraser/AppData/Roaming/intervalData/pg_hba.conf"
+FATAL:  could not load pg_hba.conf
+LOG:  database system was shut down at 2015-11-19 12:35:46 GMT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-11-19 12:42:37 GMT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  canceling statement due to user request
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-11-19 12:42:57 GMT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  canceling statement due to user request
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  local connections are not supported by this build
+CONTEXT:  line 84 of configuration file "C:/Users/kfraser/AppData/Roaming/intervalData/pg_hba.conf"
+FATAL:  could not load pg_hba.conf
+LOG:  database system was shut down at 2015-11-19 12:47:46 GMT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-11-19 12:49:42 GMT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  no pg_hba.conf entry for host "::1", user "postgres", database "postgres", SSL off
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-11-19 12:50:12 GMT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2015-11-19 12:50:55 GMT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  could not send query to Ident server at address "::1", port 113: No connection could be made because the target machine actively refused it.
+	
+FATAL:  Ident authentication failed for user "postgres"
+DETAIL:  Connection matched pg_hba.conf line 84: "host    postgres        all             ::1/128	         ident"
