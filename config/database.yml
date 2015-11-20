@@ -16,12 +16,12 @@ default: &default
 development:
   adapter: postgresql
   encoding: unicode
-  database: d8v5td25uejlfe
+  database: intervaltrainer_dev
   pool: 5
   timeout: 5000
-  host:  ec2-107-21-219-235.compute-1.amazonaws.com
-  username: jnpirblwmgqgyb
-  password: LC8pGirBWkRRZEHTYUikPYnADr
+  host:  localhost
+  username: kfraser
+  password: intervalpass
 
 
 # Warning: The database defined as "test" will be erased and
